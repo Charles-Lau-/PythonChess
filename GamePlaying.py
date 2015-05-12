@@ -59,6 +59,6 @@ if __name__ == "__main__":
     start = Node()
     board = chess.Board()
     start.setup(board)
-    print algorithm_play(start.end(),100) 
+    print algorithm_play(start.end(),1) 
      
      

@@ -7,9 +7,9 @@ import os
 import re
 from Gaussian import Gaussian
 
-CMD = [os.getcwd()+os.sep+"pgn-extract.exe", "-P",
-            "-vinput.txt","--selectonly","1","database.pgn"]
-INPUT = os.getcwd()+os.sep+"input.txt"
+CMD = [os.getcwd()+os.sep+"pgn-extract", "-P",
+            "-vinput","--selectonly","1","database.pgn"]
+INPUT = os.getcwd()+os.sep+"input"
 
 def descent(node): 
     if(node.visited): 
